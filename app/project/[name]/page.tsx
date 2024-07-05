@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      site: "@gurpalsingh287",
+      site: "@icantcodefyi",
     },
   };
 }
@@ -53,7 +53,7 @@ async function ProjectPage(props: Props) {
       <BackButton />
 
       <ImageWithLoader
-        className="mx-auto rounded-md mt-5 object-cover w-full h-[unset]"
+        className="mx-auto rounded-md mt-5 object-cover w-[2/3] h-[1/3]"
         src={project.image.url}
         alt={project.image.alt}
         loading="eager"
@@ -95,7 +95,7 @@ async function ProjectPage(props: Props) {
           {project.tags?.map((tag) => (
             <span
               key={tag}
-              className=" text-sm bg-neutral-200 text-black font-medium rounded-xl px-2 py-1"
+              className=" text-sm bg-neutral-200 text-black font-medium rounded-xl px-2 py-1 mb-5"
             >
               {upperFirst(tag)}
             </span>

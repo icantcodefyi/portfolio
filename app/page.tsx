@@ -1,39 +1,40 @@
 import Transition from "@/components/transition";
 import { AiOutlineRight, AiOutlineMail } from "react-icons/ai";
-import { FiGithub } from "react-icons/fi";
+import { FiGithub, FiTwitter } from "react-icons/fi";
 import { Projects } from "@/constants";
 import Badge from "@/components/badge";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 export const metadata = {
-  title: "Gurpal Singh | PhantomKnight287",
-  description: "I am a Full Stack Web and App Developer from India.",
+  title: "Aniruddh Dubge",
+  description: "I am a Full Stack Web Developer and Designer from India.",
   openGraph: {
-    title: "Gurpal Singh | PhantomKnight287",
-    description: "I am a Full Stack Web and App Developer from India.",
+    title: "Aniruddh Dubge",
+    description: "I am a Full Stack Web Developer and Designer from India.",
     // @ts-ignore
     type: "website",
-    url: "https://phantomknight287.github.io/",
-    site_name: "Gurpal Singh | PhantomKnight287",
+    url: "https://aniruddh.xyz/",
+    site_name: "Aniruddh Dubge",
     images: [
       {
-        url: "https://github.com/phantomknight287.png",
+        url: "https://utfs.io/f/0b7331ab-39b8-4d96-ae37-3029a9ed0571-ie6cfl.jpg",
         width: 200,
         height: 200,
-        alt: "PhantomKnight287",
+        alt: "Venti2",
       },
     ],
   },
   twitter: {
-    site: "@PhantomKnight287",
-    title: "Gurpal Singh | PhantomKnight287",
-    description: "I am a Full Stack Web and App Developer from India.",
+    site: "@ani__x_",
+    title: "Aniruddh Dubge | Venti2",
+    description: "I am a Full Stack Web Developer and Designer from India.",
     card: "summary_large_image",
-    creator: "gurpalsingh287",
+    creator: "icantcodefyi",
     images: [
       {
-        url: "https://github.com/phantomknight287.png",
+        url: "https://utfs.io/f/0b7331ab-39b8-4d96-ae37-3029a9ed0571-ie6cfl.jpg",
         width: 200,
         height: 200,
       },
@@ -42,35 +43,41 @@ export const metadata = {
 };
 
 export default function Home() {
+  const birthYear = 2005; // Replace with your birth year
+  const currentYear = new Date().getFullYear();
+  const age = currentYear - birthYear;
   return (
     <main className="min-h-screen pt-10 container items-center justify-center flex-col">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="content-center items-center flex flex-none flex-col flex-nowrap gap-2.5 h-min justify-center overflow-visible relative w-full px-4 py-0">
         <div className="container max-w-[512px] flex flex-row">
           <Image
-            src="https://github.com/phantomknight287.png"
-            alt="PhantomKnigh287"
+            src="/pfp.jpg"
+            alt="Venti2"
             width={44}
             height={44}
             className="rounded-full"
           />
           <div className="flex flex-col ml-2">
-            <h1 className="text-base font-bold text-white">Gurpal Singh</h1>
-            <span className="text-sm text-gray-400">@PhantomKnight287</span>
+            <h1 className="text-base font-bold text-white">Aniruddh Dubge</h1>
+            <span className="text-sm text-gray-400">@icantcodefyi</span>
           </div>
         </div>
       </div>
-      <div className="flex mt-10 flex-col max-w-[512px] mx-auto p-5 lg:p-0">
+      <div className="flex mt-8 flex-col max-w-[512px] mx-auto p-5 lg:p-0">
         <div className="container">
           <h1 className="text-xl font-bold text-gray-400">
             I make
             <Transition />
           </h1>
-          <p className="mt-5 text-xl text-gray-400">
-            I&apos;m Gurpal Singh, an 18 year old developer living in India. I
+          <p className="mt-3 text-xl text-gray-400">
+            I&apos;m Aniruddh Dubge, an {age} year old developer living in India. I
             am a self-taught developer who loves to code and make things.
           </p>
-          <p className="mt-5 text-xl text-gray-400">
-            Currently working in a company and messing with{" "}
+          <p className="mt-3 text-xl text-gray-400">
+            Currently working on an AI Powered Assistant who can interact on website for you and messing with{" "}
             <Badge href="https://nextjs.org">
               <svg
                 width="14"
@@ -186,74 +193,32 @@ export default function Home() {
               </svg>
               Prisma
             </Badge>
-            ,{" "}
-            <Badge href="https://turbo.build/repo" className="ml-10">
-              <svg
-                className={"inline-block mr-1"}
-                width={14}
-                height={14}
-                viewBox={`0 0 20 30`}
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <defs>
-                  <linearGradient
-                    id="logo-ring-gradient"
-                    x1="15.0234"
-                    y1="4.00556"
-                    x2="3.64419"
-                    y2="15.3847"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stopColor="#0096FF" />
-                    <stop offset="1" stopColor="#FF1E56" />
-                  </linearGradient>
-                  <linearGradient id="gradient">
-                    <stop offset="0%" stopColor="#000000" />
-                    <stop offset="25%" stopColor="#ffffff" />
-                    <stop offset="85%" stopColor="#ffffff" />
-                    <stop offset="100%" stopColor="#000000" />
-                  </linearGradient>
-                  <mask id="logo-mask">
-                    <rect
-                      x="0"
-                      y="0"
-                      width={"26"}
-                      height="26"
-                      fill="url(#gradient)"
-                      transform="translate(-8,0)"
-                    />
-                  </mask>
-                </defs>
-                <g key="turborepo" className="z-0 relative">
-                  <path
-                    d="M13.9396 6.42181C9.79423 6.42181 6.42163 9.79441 6.42163 13.9398C6.42163 18.0852 9.79423 21.4578 13.9396 21.4578C18.085 21.4578 21.4576 18.0852 21.4576 13.9398C21.4576 9.79441 18.085 6.42181 13.9396 6.42181ZM13.9396 17.8304C11.7906 17.8304 10.049 16.0888 10.049 13.9398C10.049 11.7908 11.7906 10.0492 13.9396 10.0492C16.0886 10.0492 17.8302 11.7908 17.8302 13.9398C17.8302 16.0888 16.0886 17.8304 13.9396 17.8304Z"
-                    className="dark:fill-white fill-black"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M14.5697 5.187V2.38C20.6709 2.7062 25.5177 7.7574 25.5177 13.9398C25.5177 20.1222 20.6709 25.172 14.5697 25.4996V22.6926C19.1169 22.3678 22.7177 18.5682 22.7177 13.9398C22.7177 9.3114 19.1169 5.5118 14.5697 5.187ZM7.30928 19.6798C6.10388 18.2882 5.32688 16.5158 5.18828 14.5698H2.37988C2.52548 17.2928 3.61468 19.7638 5.32128 21.6664L7.30788 19.6798H7.30928ZM13.3097 25.4996V22.6926C11.3623 22.554 9.5899 21.7784 8.1983 20.5716L6.2117 22.5582C8.1157 24.2662 10.5867 25.354 13.3083 25.4996H13.3097Z"
-                    fill="url(#logo-ring-gradient)"
-                  />
-                </g>
-              </svg>
-              TurboRepo
-            </Badge>{" "}
+            {" "}
             and some other tooling.
           </p>
         </div>
         <div className="flex items-start mt-5 w-full justify-start flex-col">
-          {/* <div className="flex flex-row items-center justify-start">
+          <div className="flex flex-row items-center justify-start">
             <div className="aspect-square flex-none h-[10px] overflow-hidden relative w-2.5 will-change-transform bg-green-500 rounded-full"></div>
             <div className="flex flex-col justify-start shrink-0 opacity-100 ml-2 ">
               <p className="text-white">Available for new opportunities</p>
             </div>
-          </div> */}
+          </div>
           <br />
-          <div className="flex flex-row mt-3 gap-3">
+          <div className="flex flex-row gap-3">
             <a
-              href="https://github.com/phantomknight287"
+              href="https://www.x.com/icantcodefyi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-row items-center justify-start gap-2.5 
+              text-white transition duration-300 ease-in-out
+              bg-neutral-700 hover:bg-neutral-900 rounded-md px-3 py-2.5  
+            "
+            >
+              <FiTwitter className="text-white text-xl" />
+            </a>
+            <a
+              href="https://github.com/anuplayz"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center justify-start gap-2.5 
@@ -264,7 +229,7 @@ export default function Home() {
               <FiGithub className="text-white text-xl" />
             </a>
             <a
-              href="mailto:phantomknight287@proton.me"
+              href="mailto:adubge@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center justify-start gap-2.5 

@@ -19,137 +19,245 @@ interface Project {
 
 export const Projects: Project[] = [
   {
-    name: "FrameGround",
-    slug: "frameground",
+    name: "Glanza Labs",
+    slug: "glanza-labs",
     image: {
-      url: "/frameground.png",
-      width: 1418,
-      height: 414,
-      alt: "Frameground",
+      url: "/pfp.jpg",
+      width: 400,
+      height: 200,
+      alt: "Glanza Labs"
     },
+    description: "Beautifully designed and developed landing page including app for Glanza Labs.",
     urls: {
-      githubUrl: "https://github.com/phantomknight287/frameground",
-      liveUrl: "https://frameground.tech",
-    },
-    description: "Learn JavaScript frameworks with interactive challenges",
-    tags: ["Next.js", "Typescript", "Tailwind CSS", "Prisma", "PostgreSQL"],
-  },
-  {
-    name: "Music.ai",
-    slug: "music-ai",
-    image: {
-      url: "/music-ai.jpg",
-      width: 674,
-      height: 441,
-      alt: "Music.ai",
-    },
-    description:
-      "A revolutionary product that brings your music to life with advanced AI technology.",
-    urls: {
-      liveUrl: "https://musicaicentral.com",
+      liveUrl: "https://www.glanza.org/"
     },
     tags: [
-      "React Native",
-      "Expo Router",
+      "Landing Page",
+      "NextAuth",
+      "Next.Js",
+      "Tailwind Css",
+      "PostgreSQL"
+    ]
+  },  
+  {
+    name: "Nexus Visualize",
+    slug: "nexus-visualize",
+    image: {
+      url: "/visualize.jpg",
+      width: 400,
+      height: 441,
+      alt: "Nexus Visualize"
+    },
+    description: "AI Dashboard Generator is an open-source dashboard generator based on Next.js and OpenAI's GPT-3 technology. The tool allows users to feed existing tables or datasets, and from there, it understands the intent of the table and generates a visual representation of the data.",
+    urls: {
+      liveUrl: "https://dashboard.aniruddh.tech",
+      githubUrl: "https://github.com/AnuPlayz/nexus-dashboard"
+    },
+    tags: [
+      "AI",
+      "Next.js",
+      "OpenAI",
+      "GPT-3.5",
+      "Data Visualization",
+      "CSV"
+    ]
+  },  
+  {
+    name: "School Results",
+    slug: "school-results",
+    image: {
+      url: "/results.ico",
+      width: 400,
+      height: 441,
+      alt: "School Results"
+    },
+    description: "An app that generates results for a pre-primary school.",
+    urls: {
+      liveUrl: "https://results-lkps.vercel.app/",
+      githubUrl: "https://github.com/AnuPlayz/school-results"
+    },
+    tags: [
+      "Education",
+      "TypeScript",
+      "Next.Js",
+      "PDFME",
+      "Serverless",
+      "Tailwind Css"
+    ]
+  },  
+  {
+    name: "Nexus Notes",
+    slug: "nexus-notes",
+    image: {
+      url: "/notes.png",
+      width: 400,
+      height: 441,
+      alt: "Nexus Notes"
+    },
+    description: "A note-taking Chrome extension: taking notes on the web with their context.",
+    urls: {
+      githubUrl: "https://github.com/AnuPlayz/jugaad-hacks"
+    },
+    tags: [
+      "Chrome Extension",
+      "TypeScript",
+      "Vue.js",
+      "Tailwind CSS",
+      "Quill"
+    ]
+  },
+  {
+    name: "Nexus Events",
+    slug: "nexus-events",
+    image: {
+      url: "/nexusevents.webp",
+      width: 400,
+      height: 441,
+      alt: "Nexus Events",
+    },
+    description:
+      "A event management nft ticketing dapp made using PolygonId, The Graph and Scroll",
+    urls: {
+      liveUrl: "https://nexus-events.vercel.app/",
+      githubUrl: "https://github.com/orgs/NexusTech-India/repositories"
+    },
+    tags: [
+      "Solidity",
+      "Hardhat",
       "Typescript",
-      "Nest.js",
-      "PostgreSQL",
-      "Supabase",
-      "In app purchases",
+      "Next.js",
+      "PolygonId",
+      "TheGraph",
+      "Scroll.io",
     ],
   },
   {
-    name: "Lend My Skill",
-    slug: "lend-my-skill",
+    name: "Nexus Read",
+    slug: "nexus-read",
     image: {
-      url: "https://github.com/PhantomKnight287/lend-my-skill/blob/main/assets/lms-logo.png?raw=true",
-      alt: "Lend My Skill",
-      width: 164,
+      url: "/nexusread.png",
+      alt: "NexusRead",
+      width: 400,
       height: 164,
     },
     urls: {
-      githubUrl: "https://github.com/PhantomKnight287/lend-my-skill",
+      githubUrl: "https://github.com/AnuPlayz/nexus-read",
+      liveUrl: "https://www.youtube.com/watch?v=5FMkSz6AF-0"
     },
-    description: `A Freelance platform designed specially for Indians supporting payment methods like Rupay Card and UPI.`,
+    description:"A manga hosting web application for hosting your own manga and showcase that to the world!",
     tags: [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "Nest.js",
-      "Socket.io",
-      "PostgreSQL",
+      "NextAuth",
+      "Prisma",
+      "MongoDB",
+      "Imagga"
     ],
   },
   {
-    name: "Voto",
+    name: "Citronics",
     description:
-      "A realtime voting platform where organisations can register and create junior admins to create and manage polls, register candidates and allow them to participate in certain polls, voters can register and vote for their favourite candidates and view a realtime graph of the results. Used by 3000 voters and over 7000 votes casted in the first 1 month of launch.",
-    slug: "voto",
+      "An official event website for college fest made with html css and vanilla js",
+    slug: "citronics",
     urls: {
-      liveUrl: "https://voto.com.ng",
+      liveUrl: "https://citronics.netlify.app/",
     },
     image: {
-      url: "/voto.png",
-      width: 417,
+      url: "/icon.webp",
+      width: 400,
       height: 234,
-      alt: "Voto",
+      alt: "Citronics",
     },
     tags: [
-      "Next.js",
-      "Express",
-      "Typescript",
-      "Cloudinary",
-      "PostgreSQL",
-      "Prisma",
-      "Socket.io",
-      "Tailwind CSS",
-      "Mantine",
-      "Chart.js",
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Nodejs",
+      "ParticleJs",
+      "Nodejs",
     ],
   },
   {
-    name: "Fluxt",
-    slug: "fluxt",
+    name: "Investment Bot",
+    slug: "investment-bot",
     urls: {
-      githubUrl: "https://github.com/PhantomKnight287/fluxt",
+      githubUrl: "https://github.com/AnuPlayz/investment-bot",
     },
     image: {
-      url: "/chat.png",
-      alt: "Fluxt",
-      width: 360,
+      url: "/investment.webp",
+      alt: "Investment app",
+      width: 400,
       height: 360,
     },
-    description: `A Realtime chat app created using flask,socket io and nextjs`,
-    tags: ["Flask", "Socket.io", "Next.js", "TypeScript", "Mantine", "Sqlite3"],
+    description: "A discord bot for discord.gg/paisa ( investment server ) built using discord.js and TypeScript.",
+    tags: ["TypeScript", "Discord.js", "Node.js"],
   },
   {
-    name: "Reactive Chat",
-    slug: "reactive-chat",
+    name: "ANS Logistics",
+    slug: "ans",
     urls: {
-      githubUrl: "https://github.com/PhantomKnight287/reactnative",
+      liveUrl: "https://ani-logistics.vercel.app/",
     },
-    tags: ["React Native", "Firebase"],
-    description: `A Realtime chat app created using React Native and Firebase`,
     image: {
-      url: "/chat.png",
+      url: "/ans.png",
       alt: "Fluxt",
-      width: 360,
+      width: 400,
+      height: 360,
+    },
+    description: "A website created for an logistics service ANS Logistics",
+    tags: ["HTML5", "CSS3", "Javascript", "TypeScript", "TailwindCSS", "ReactIcons"],
+  },
+  {
+    name: "Record Warden",
+    slug: "recordwarden",
+    urls: {
+      liveUrl: "https://recordwarden.vercel.app/",
+      githubUrl: "https://github.com/AnuPlayz/recordwarden-frontend"
+    },
+    tags: ["Next.Js", "Firebase", "NextAuth", "Solidity", "Typescript", "Hardhat", "Polygon"],
+    description: "A website created for handling of legal documents and storing them on blockchain ( web3 )",
+    image: {
+      url: "/warden.jpg",
+      alt: "recordwarden",
+      width: 400,
       height: 360,
     },
   },
   {
-    name: "React Cli",
-    slug: "react-cli",
+    name: "Animax",
+    slug: "animax",
     urls: {
-      githubUrl: "https://github.com/PhantomKnight287/react-cli",
+      githubUrl: "https://github.com/AnuPlayz/animax",
     },
-    tags: ["Rust"],
-    description: "A CLI tool to generate react components and hooks.",
+    tags: ["Express", "MongoDB", "Typescript", "Javascript", "Node.js"],
+    description: "Backend for an anime website + a scraper which gets all data of anime from websites like aniwatch.to .",
     image: {
-      url: "/cli.png",
-      width: 360,
-      height: 360,
+      url: "/animax.png",
+      width: 400,
+      height: 441,
       alt: "React Cli",
     },
+  },
+  {
+    name: "Little Kids Planet",
+    slug: "lkps",
+    image: {
+      url: "/lkps.png",
+      width: 400,
+      height: 441,
+      alt: "Little Kids Planet School",
+    },
+    description:
+      "A website for my mom's pre primary school built by me",
+    urls: {
+      liveUrl: "https://littlekidsplanet.com/",
+    },
+    tags: [
+      "Nextjs",
+      "HTML",
+      "CSS",
+      "Javascript",
+    ],
   },
 ];
