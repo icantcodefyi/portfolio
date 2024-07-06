@@ -8,27 +8,27 @@ import Link from "next/link";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Aniruddh Dubge",
+  title: "Aniruddh",
   description: "I am a Full Stack Web Developer and Designer from India.",
   openGraph: {
-    title: "Aniruddh Dubge",
+    title: "Aniruddh",
     description: "I am a Full Stack Web Developer and Designer from India.",
     // @ts-ignore
     type: "website",
     url: "https://aniruddh.xyz/",
-    site_name: "Aniruddh Dubge",
+    site_name: "Aniruddh",
     images: [
       {
         url: "https://utfs.io/f/0b7331ab-39b8-4d96-ae37-3029a9ed0571-ie6cfl.jpg",
         width: 200,
         height: 200,
-        alt: "Venti2",
+        alt: "icantcodefyi",
       },
     ],
   },
   twitter: {
     site: "@ani__x_",
-    title: "Aniruddh Dubge | Venti2",
+    title: "Aniruddh",
     description: "I am a Full Stack Web Developer and Designer from India.",
     card: "summary_large_image",
     creator: "icantcodefyi",
@@ -43,7 +43,7 @@ export const metadata = {
 };
 
 export default function Home() {
-  const birthYear = 2005; // Replace with your birth year
+  const birthYear = 2005;
   const currentYear = new Date().getFullYear();
   const age = currentYear - birthYear;
   return (
@@ -61,7 +61,7 @@ export default function Home() {
             className="rounded-full"
           />
           <div className="flex flex-col ml-2">
-            <h1 className="text-base font-bold text-white">Aniruddh Dubge</h1>
+            <h1 className="text-base font-bold text-white">Aniruddh</h1>
             <span className="text-sm text-gray-400">@icantcodefyi</span>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
             <Transition />
           </h1>
           <p className="mt-3 text-xl text-gray-400">
-            I&apos;m Aniruddh Dubge, an {age} year old developer living in India. I
+            I&apos;m Aniruddh, an {age} year old developer living in India. I
             am a self-taught developer who loves to code and make things.
           </p>
           <p className="mt-3 text-xl text-gray-400">
