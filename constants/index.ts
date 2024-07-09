@@ -45,7 +45,7 @@ export const Projects: Project[] = [
     image: {
       url: "/visualize.jpg",
       width: 400,
-      height: 441,
+      height: 200,
       alt: "Nexus Visualize"
     },
     description: "AI Dashboard Generator is an open-source dashboard generator based on Next.js and OpenAI's GPT-3 technology. The tool allows users to feed existing tables or datasets, and from there, it understands the intent of the table and generates a visual representation of the data.",
@@ -68,7 +68,7 @@ export const Projects: Project[] = [
     image: {
       url: "/results.ico",
       width: 400,
-      height: 441,
+      height: 200,
       alt: "School Results"
     },
     description: "An app that generates results for a pre-primary school.",
@@ -91,7 +91,7 @@ export const Projects: Project[] = [
     image: {
       url: "/notes.png",
       width: 400,
-      height: 441,
+      height: 200,
       alt: "Nexus Notes"
     },
     description: "A note-taking Chrome extension: taking notes on the web with their context.",
@@ -112,7 +112,7 @@ export const Projects: Project[] = [
     image: {
       url: "/nexusevents.webp",
       width: 400,
-      height: 441,
+      height: 200,
       alt: "Nexus Events",
     },
     description:
@@ -138,7 +138,7 @@ export const Projects: Project[] = [
       url: "/nexusread.png",
       alt: "NexusRead",
       width: 400,
-      height: 164,
+      height: 200,
     },
     urls: {
       githubUrl: "https://github.com/AnuPlayz/nexus-read",
@@ -166,7 +166,7 @@ export const Projects: Project[] = [
     image: {
       url: "/icon.webp",
       width: 400,
-      height: 234,
+      height: 200,
       alt: "Citronics",
     },
     tags: [
@@ -188,7 +188,7 @@ export const Projects: Project[] = [
       url: "/investment.webp",
       alt: "Investment app",
       width: 400,
-      height: 360,
+      height: 200,
     },
     description: "A discord bot for discord.gg/paisa ( investment server ) built using discord.js and TypeScript.",
     tags: ["TypeScript", "Discord.js", "Node.js"],
@@ -203,7 +203,7 @@ export const Projects: Project[] = [
       url: "/ans.png",
       alt: "Fluxt",
       width: 400,
-      height: 360,
+      height: 200,
     },
     description: "A website created for an logistics service ANS Logistics",
     tags: ["HTML5", "CSS3", "Javascript", "TypeScript", "TailwindCSS", "ReactIcons"],
@@ -221,7 +221,7 @@ export const Projects: Project[] = [
       url: "/warden.jpg",
       alt: "recordwarden",
       width: 400,
-      height: 360,
+      height: 200,
     },
   },
   {
@@ -235,7 +235,7 @@ export const Projects: Project[] = [
     image: {
       url: "/animax.png",
       width: 400,
-      height: 441,
+      height: 200,
       alt: "React Cli",
     },
   },
@@ -245,7 +245,7 @@ export const Projects: Project[] = [
     image: {
       url: "/lkps.png",
       width: 400,
-      height: 441,
+      height: 200,
       alt: "Little Kids Planet School",
     },
     description:

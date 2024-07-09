@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <main className="min-h-screen pt-10 container items-center justify-center flex-col">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://utfs.io/f/0b7331ab-39b8-4d96-ae37-3029a9ed0571-ie6cfl.jpg" />
       </Head>
       <div className="content-center items-center flex flex-none flex-col flex-nowrap gap-2.5 h-min justify-center overflow-visible relative w-full px-4 py-0">
         <div className="container max-w-[512px] flex flex-row">
@@ -195,9 +195,14 @@ export default function Home() {
             </Badge>
             {" "}
             and some other tooling.
+            <p className="pt-2 text-xs">prev github -
+              <a href="https://www.x.com/anuplayz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="italic"> anuplayz</a> got compromised oof</p>
           </p>
         </div>
-        <div className="flex items-start mt-5 w-full justify-start flex-col">
+        <div className="flex items-start mt-3 w-full justify-start flex-col">
           <div className="flex flex-row items-center justify-start">
             <div className="aspect-square flex-none h-[10px] overflow-hidden relative w-2.5 will-change-transform bg-green-500 rounded-full"></div>
             <div className="flex flex-col justify-start shrink-0 opacity-100 ml-2 ">
@@ -218,7 +223,7 @@ export default function Home() {
               <FiTwitter className="text-white text-xl" />
             </a>
             <a
-              href="https://github.com/anuplayz"
+              href="https://github.com/icantcodefyi"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center justify-start gap-2.5 
