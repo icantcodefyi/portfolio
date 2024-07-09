@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <main className="min-h-screen pt-10 container items-center justify-center flex-col">
       <Head>
-        <link rel="icon" href="https://utfs.io/f/0b7331ab-39b8-4d96-ae37-3029a9ed0571-ie6cfl.jpg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="content-center items-center flex flex-none flex-col flex-nowrap gap-2.5 h-min justify-center overflow-visible relative w-full px-4 py-0">
         <div className="container max-w-[512px] flex flex-row">
@@ -196,7 +196,7 @@ export default function Home() {
             {" "}
             and some other tooling.
             <p className="pt-2 text-xs">prev github -
-              <a href="https://www.x.com/anuplayz/"
+              <a href="https://www.github.com/anuplayz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="italic"> anuplayz</a> got compromised oof</p>
