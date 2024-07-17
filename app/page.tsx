@@ -73,7 +73,7 @@ export default function Home() {
             <Transition />
           </h1>
           <p className="mt-3 text-xl text-gray-400">
-            I&apos;m Aniruddh, an {age} year old developer living in India. I
+            I&apos;m Aniruddh, a {age} year old developer living in India. I
             am a self-taught developer who loves to code and make things.
           </p>
           <p className="mt-3 text-xl text-gray-400">
