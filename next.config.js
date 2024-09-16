@@ -5,6 +5,8 @@ const nextConfig = {
       "avatars.githubusercontent.com",
       "repository-images.githubusercontent.com",
       "github.com",
+      "cdn2.thecatapi.com",
+      
     ],
   },
   swcMinify: true,

@@ -19,6 +19,36 @@ interface Project {
 
 export const Projects: Project[] = [
   {
+    name: "GetaResume",
+    slug: "getaresume",
+    image: {
+      url: "/getaresume.png",
+      width: 400,
+      height: 200,
+      alt: "GetaResume"
+    },
+    urls: {
+      liveUrl: "https://getaresu.me/"
+    },
+    description: "A resume to portfolio website tool that allows you to create a web resume in minutes.",
+    tags: ["Resume", "PDF", "View", "Portfolio"]
+  },
+  {
+    name: "BuildaResume",
+    slug: "buildaresume",
+    image: {
+      url: "/buildaresume.png",
+      width: 400,
+      height: 200,
+      alt: "BuildaResume"
+    },
+    urls: {
+      liveUrl: "https://buildaresume.vercel.app/"
+    },
+    description: "A resume builder that allows you to create a resume in minutes based off your linkedin and github profiles.",
+    tags: ["Resume", "PDF", "View", "Portfolio"]
+  },
+  {
     name: "Glanza Labs",
     slug: "glanza-labs",
     image: {
