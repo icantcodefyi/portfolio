@@ -55,7 +55,7 @@ export default function Home() {
         <div className="container max-w-[512px] flex flex-row">
           <Image
             src="/pfp.jpg"
-            alt="Venti2"
+            alt="Aniruddh"
             width={44}
             height={44}
             className="rounded-full"

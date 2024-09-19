@@ -52,7 +52,7 @@ export const Projects: Project[] = [
     name: "Glanza Labs",
     slug: "glanza-labs",
     image: {
-      url: "/pfp.jpg",
+      url: "/glanza.png",
       width: 400,
       height: 200,
       alt: "Glanza Labs"
@@ -73,7 +73,7 @@ export const Projects: Project[] = [
     name: "Nexus Visualize",
     slug: "nexus-visualize",
     image: {
-      url: "/visualize.jpg",
+      url: "/nexusdashboard.png",
       width: 400,
       height: 200,
       alt: "Nexus Visualize"
@@ -96,7 +96,7 @@ export const Projects: Project[] = [
     name: "School Results",
     slug: "school-results",
     image: {
-      url: "/results.ico",
+      url: "/lkpsresult.png",
       width: 400,
       height: 200,
       alt: "School Results"
@@ -116,31 +116,10 @@ export const Projects: Project[] = [
     ]
   },  
   {
-    name: "Nexus Notes",
-    slug: "nexus-notes",
-    image: {
-      url: "/notes.png",
-      width: 400,
-      height: 200,
-      alt: "Nexus Notes"
-    },
-    description: "A note-taking Chrome extension: taking notes on the web with their context.",
-    urls: {
-      githubUrl: "https://github.com/AnuPlayz/jugaad-hacks"
-    },
-    tags: [
-      "Chrome Extension",
-      "TypeScript",
-      "Vue.js",
-      "Tailwind CSS",
-      "Quill"
-    ]
-  },
-  {
     name: "Nexus Events",
     slug: "nexus-events",
     image: {
-      url: "/nexusevents.webp",
+      url: "/nexusevents.png",
       width: 400,
       height: 200,
       alt: "Nexus Events",
@@ -194,7 +173,7 @@ export const Projects: Project[] = [
       liveUrl: "https://citronics.netlify.app/",
     },
     image: {
-      url: "/icon.webp",
+      url: "/citronics.png",
       width: 400,
       height: 200,
       alt: "Citronics",
@@ -215,44 +194,13 @@ export const Projects: Project[] = [
       githubUrl: "https://github.com/AnuPlayz/investment-bot",
     },
     image: {
-      url: "/investment.webp",
+      url: "/investment.png",
       alt: "Investment app",
       width: 400,
       height: 200,
     },
     description: "A discord bot for discord.gg/paisa ( investment server ) built using discord.js and TypeScript.",
     tags: ["TypeScript", "Discord.js", "Node.js"],
-  },
-  {
-    name: "ANS Logistics",
-    slug: "ans",
-    urls: {
-      liveUrl: "https://ani-logistics.vercel.app/",
-    },
-    image: {
-      url: "/ans.png",
-      alt: "Fluxt",
-      width: 400,
-      height: 200,
-    },
-    description: "A website created for an logistics service ANS Logistics",
-    tags: ["HTML5", "CSS3", "Javascript", "TypeScript", "TailwindCSS", "ReactIcons"],
-  },
-  {
-    name: "Record Warden",
-    slug: "recordwarden",
-    urls: {
-      liveUrl: "https://recordwarden.vercel.app/",
-      githubUrl: "https://github.com/AnuPlayz/recordwarden-frontend"
-    },
-    tags: ["Next.Js", "Firebase", "NextAuth", "Solidity", "Typescript", "Hardhat", "Polygon"],
-    description: "A website created for handling of legal documents and storing them on blockchain ( web3 )",
-    image: {
-      url: "/warden.jpg",
-      alt: "recordwarden",
-      width: 400,
-      height: 200,
-    },
   },
   {
     name: "Animax",
@@ -281,7 +229,7 @@ export const Projects: Project[] = [
     description:
       "A website for my mom's pre primary school built by me",
     urls: {
-      liveUrl: "https://littlekidsplanet.com/",
+      liveUrl: "https://lkps.vercel.app/",
     },
     tags: [
       "Nextjs",
