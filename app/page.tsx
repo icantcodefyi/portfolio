@@ -1,6 +1,6 @@
 import Transition from "@/components/transition";
 import { AiOutlineRight, AiOutlineMail } from "react-icons/ai";
-import { FiGithub, FiTwitter } from "react-icons/fi";
+import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 import { Projects } from "@/constants";
 import Badge from "@/components/badge";
 import Image from "next/image";
@@ -232,6 +232,17 @@ export default function Home() {
             "
             >
               <FiGithub className="text-white text-xl" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aniruddhdubge/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-row items-center justify-start gap-2.5 
+              text-white transition duration-300 ease-in-out
+              bg-neutral-700 hover:bg-neutral-900 rounded-md px-3 py-2.5  
+            "
+            >
+              <FiLinkedin className="text-white text-xl" />
             </a>
             <a
               href="mailto:adubge@gmail.com"
