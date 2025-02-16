@@ -19,6 +19,53 @@ interface Project {
 
 export const Projects: Project[] = [
   {
+    name: "cattype",
+    slug: "cattype",
+    image: {
+      url: "/logo.png",
+      width: 400,
+      height: 200,
+      alt: "CatType - A Modern Typing Practice App"
+    },
+    urls: {
+      liveUrl: "https://cattype.live/",
+      githubUrl: "https://github.com/icantcodefyi/cattype"
+    },
+    description: "A modern, customizable typing practice application featuring multiple themes, coding snippets, and real-time statistics. Built with Next.js and TypeScript, it offers various difficulty levels and programming language-specific practice modes.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Typing Practice",
+      "Themes",
+      "Code Snippets",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    name: "AutoDiagram",
+    slug: "autodiagram",
+    image: {
+      url: "/logo.png",
+      width: 400,
+      height: 200,
+      alt: "AutoDiagram - AI Powered Diagram Generation"
+    },
+    urls: {
+      liveUrl: "https://autodiagram.com/",
+      githubUrl: "https://github.com/icantcodefyi/diagram"
+    },
+    description: "An AI-powered diagram generation tool that transforms text descriptions into professional diagrams. Supports 20+ diagram types including flowcharts, ER diagrams, architecture maps, and sequence diagrams with intelligent suggestions and error prevention.",
+    tags: [
+      "AI",
+      "Diagram Generation",
+      "Next.js",
+      "TypeScript",
+      "SVG",
+      "SaaS"
+    ]
+  },
+  
+  {
     name: "GetaResume",
     slug: "getaresume",
     image: {

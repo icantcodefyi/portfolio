@@ -195,11 +195,6 @@ export default function Home() {
             </Badge>
             {" "}
             and some other tooling.
-            <p className="pt-2 text-xs">prev github -
-              <a href="https://www.github.com/anuplayz/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="italic"> anuplayz</a> got compromised oof</p>
           </p>
         </div>
         <div className="flex items-start mt-3 w-full justify-start flex-col">

@@ -12,6 +12,14 @@ export const metadata = {
   keywords: ["Full Stack Developer", "Web Designer", "Next.js", "React", "TypeScript", "India"],
   authors: [{ name: "Aniruddh", url: "https://aniruddh.xyz" }],
   creator: "Aniruddh",
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
