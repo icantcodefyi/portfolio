@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Hanken_Grotesk } from "next/font/google";
 const font = Hanken_Grotesk({ subsets: ["latin"] });
+import Script from "next/script";
 
 export const metadata = {
   metadataBase: new URL("https://aniruddh.xyz"),
@@ -50,6 +51,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${font.className} bg-[#111010] flex justify-center`}>
         {children}
+        <Script src="/oneko.js" strategy="afterInteractive" />
       </body>
     </html>
   );
