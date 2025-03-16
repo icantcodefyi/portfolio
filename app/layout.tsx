@@ -5,14 +5,14 @@ import { OpenPanelComponent } from '@openpanel/nextjs';
 import Script from "next/script";
 
 export const metadata = {
-  metadataBase: new URL("https://aniruddh.xyz"),
+  metadataBase: new URL("https://aniruddh.ink"),
   title: {
     default: "Aniruddh",
     template: "%s | Aniruddh",
   },
   description: "Full Stack Web Developer and Designer from India, specializing in Next.js, React, and TypeScript.",
   keywords: ["Full Stack Developer", "Web Designer", "Next.js", "React", "TypeScript", "India"],
-  authors: [{ name: "Aniruddh", url: "https://aniruddh.xyz" }],
+  authors: [{ name: "Aniruddh", url: "https://ani.ink/" }],
   creator: "Aniruddh",
   icons: {
     icon: [
@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://aniruddh.xyz",
+    url: "https://ani.ink",
     siteName: "Aniruddh's Portfolio",
     images: [
       {
