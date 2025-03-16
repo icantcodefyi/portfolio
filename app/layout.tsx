@@ -3,8 +3,9 @@ import { Hanken_Grotesk } from "next/font/google";
 const font = Hanken_Grotesk({ subsets: ["latin"] });
 import { OpenPanelComponent } from '@openpanel/nextjs';
 import Script from "next/script";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   metadataBase: new URL("https://ani.ink"),
   title: {
     default: "Aniruddh",
@@ -31,7 +32,7 @@ export const metadata = {
     description: "Full Stack Web Developer and Designer from India, specializing in Next.js, React, and TypeScript.",
     images: [
       {
-        url: "https://ani.ink/og.jpeg",
+        url: "/og.jpeg",
         width: 1200,
         height: 630,
         alt: "Aniruddh's Profile Picture",
@@ -42,6 +43,14 @@ export const metadata = {
     card: "summary_large_image",
     site: "@icantcodefyi",
     creator: "@icantcodefyi",
+    images: [
+      {
+        url: "/og.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Aniruddh's Profile Picture",
+      },
+    ],
   },
 };
 
