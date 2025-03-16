@@ -29,7 +29,7 @@ export const metadata = {
     siteName: "Aniruddh's Portfolio",
     images: [
       {
-        url: "https://utfs.io/f/0b7331ab-39b8-4d96-ae37-3029a9ed0571-ie6cfl.jpg",
+        url: "/og.jpeg",
         width: 200,
         height: 200,
         alt: "Aniruddh's Profile Picture",
