@@ -5,7 +5,7 @@ import { OpenPanelComponent } from '@openpanel/nextjs';
 import Script from "next/script";
 
 export const metadata = {
-  metadataBase: new URL("https://aniruddh.ink"),
+  metadataBase: new URL("https://ani.ink"),
   title: {
     default: "Aniruddh",
     template: "%s | Aniruddh",
@@ -27,11 +27,13 @@ export const metadata = {
     locale: "en_US",
     url: "https://ani.ink",
     siteName: "Aniruddh's Portfolio",
+    title: "Aniruddh - Full Stack Developer",
+    description: "Full Stack Web Developer and Designer from India, specializing in Next.js, React, and TypeScript.",
     images: [
       {
-        url: "/og.jpeg",
-        width: 200,
-        height: 200,
+        url: "https://ani.ink/og.jpeg",
+        width: 1200,
+        height: 630,
         alt: "Aniruddh's Profile Picture",
       },
     ],
