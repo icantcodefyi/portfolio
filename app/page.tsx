@@ -43,9 +43,12 @@ export const metadata = {
 };
 
 export default function Home() {
-  const birthYear = 2005;
-  const currentYear = new Date().getFullYear();
-  const age = currentYear - birthYear;
+  const birthDate = new Date('2005-03-29');
+  const today = new Date();
+  const age = today.getFullYear() - birthDate.getFullYear() - 
+    (today.getMonth() < birthDate.getMonth() || 
+    (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate()) ? 1 : 0);
+    
   return (
     <main className="min-h-screen pt-10 container items-center justify-center flex-col">
       <Head>

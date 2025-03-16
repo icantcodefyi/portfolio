@@ -22,7 +22,7 @@ export const Projects: Project[] = [
     name: "cattype",
     slug: "cattype",
     image: {
-      url: "/logo.png",
+      url: "/cattype.webp",
       width: 400,
       height: 200,
       alt: "CatType - A Modern Typing Practice App"
@@ -45,7 +45,7 @@ export const Projects: Project[] = [
     name: "AutoDiagram",
     slug: "autodiagram",
     image: {
-      url: "/logo.png",
+      url: "/autodiagram.webp",
       width: 400,
       height: 200,
       alt: "AutoDiagram - AI Powered Diagram Generation"
