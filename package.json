@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openpanel/nextjs": "^1.0.7",
     "@react-spring/web": "^9.7.3",
     "@types/node": "20.11.20",
     "@types/react": "18.2.58",

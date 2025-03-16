@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Hanken_Grotesk } from "next/font/google";
 const font = Hanken_Grotesk({ subsets: ["latin"] });
+import { OpenPanelComponent } from '@openpanel/nextjs';
 import Script from "next/script";
 
 export const metadata = {
@@ -50,6 +51,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${font.className} bg-[#111010] flex justify-center`}>
+        <OpenPanelComponent
+          clientId="89e02301-b6bb-4341-a2b4-29d138532b7b"
+          trackScreenViews={true}
+        />
         {children}
         <Script src="/oneko.js" strategy="afterInteractive" />
       </body>
