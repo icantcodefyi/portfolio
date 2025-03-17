@@ -42,7 +42,7 @@ export const Projects: Project[] = [
     ]
   },
   {
-    name: "AutoDiagram",
+    name: "autodiagram",
     slug: "autodiagram",
     image: {
       url: "/autodiagram.webp",
@@ -66,7 +66,7 @@ export const Projects: Project[] = [
   },
   
   {
-    name: "GetaResume",
+    name: "getaresume",
     slug: "getaresume",
     image: {
       url: "/getaresume.png",
@@ -81,7 +81,7 @@ export const Projects: Project[] = [
     tags: ["Resume", "PDF", "View", "Portfolio"]
   },
   {
-    name: "BuildaResume",
+    name: "buildaresume",
     slug: "buildaresume",
     image: {
       url: "/buildaresume.png",
@@ -96,7 +96,7 @@ export const Projects: Project[] = [
     tags: ["Resume", "PDF", "View", "Portfolio"]
   },
   {
-    name: "School Results",
+    name: "school results",
     slug: "school-results",
     image: {
       url: "/lkpsresult.png",
