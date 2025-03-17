@@ -202,7 +202,11 @@ export default function Home() {
           </p>
         </div>
         <div className="flex items-start mt-3 w-full justify-start flex-col">
-          <Link href="https://www.x.com/icantcodefyi/" rel="noopener noreferrer" target="_blank">
+          <Link
+            href="https://www.x.com/icantcodefyi/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <div className="flex flex-row items-center justify-start">
               <div className="aspect-square flex-none h-[10px] overflow-hidden relative w-2.5 will-change-transform bg-green-500 rounded-full"></div>
               <div className="flex flex-col justify-start shrink-0 opacity-100 ml-2 ">
@@ -263,7 +267,9 @@ export default function Home() {
         <div className="mt-5">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl text-white mt-5 mb-5">Projects</h1>
-            <Link href="/project" className="text-neutral-300 hover:underline">more</Link>
+            <Link href="/project" className="text-neutral-300 hover:underline">
+              more
+            </Link>
           </div>
           <div className="flex flex-col">
             {Projects.slice(0, 5).map((project) => (
@@ -289,6 +295,11 @@ export default function Home() {
           </div>
         </div>
         <Hackathons />
+        <div className="text-center py-4">
+          <Link href={"/resume"} className="text-neutral-600 text-sm hover:underline">
+            Resume
+          </Link>
+        </div>
       </div>
     </main>
   );
