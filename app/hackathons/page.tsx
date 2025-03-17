@@ -29,8 +29,8 @@ const hackathonImages = [
 
 export default function Hackathons() {
   return (
-    <main className="min-h-screen pt-10 container items-center justify-center flex-col">
-      <div className="flex mt-8 flex-col max-w-[512px] mx-auto p-5 lg:p-0">
+    <main className="min-h-screen container items-center justify-center flex-col">
+      <div className="flex flex-col max-w-[512px] mx-auto p-5 lg:p-0">
         <div className="container">
           <BackButton />
 
