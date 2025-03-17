@@ -6,6 +6,7 @@ import Badge from "@/components/badge";
 import Image from "next/image";
 import Link from "next/link";
 import Hackathons from "@/components/hackathons";
+import WorkExperience from "@/components/workexp";
 
 export default function Home() {
   const birthDate = new Date("2005-03-29");
@@ -258,6 +259,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full h-[1px] "></div>
+        <WorkExperience />
         <div className="mt-5">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl text-white mt-5 mb-5">Projects</h1>
