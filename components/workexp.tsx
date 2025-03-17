@@ -46,10 +46,10 @@ export default function WorkExperience() {
           >
             <article className="mt-3 mb-3">
               <div className="flex justify-between items-center">
-                <h1 className="text-lg font-medium leading-[1.3em] text-left text-neutral-300">
+                <h1 className="text-lg font-medium leading-[1.3em] text-left text-gray-300">
                   {exp.company}
                 </h1>
-                <p className="text-sm text-neutral-400">{exp.location}</p>
+                <p className="text-sm text-gray-300">{exp.location}</p>
               </div>
               <div className="flex justify-between items-center mt-1">
                 <p className="text-sm text-neutral-400">{exp.position}</p>

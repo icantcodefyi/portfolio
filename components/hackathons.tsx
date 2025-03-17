@@ -33,7 +33,7 @@ export default function Hackathons() {
       <div className="mt-5">
         <div className="flex justify-between items-center">
           <h1 className="text-2xl text-white mt-5 mb-5">Hackathons Wins</h1>
-          <Link href="/hackathons" className="text-neutral-300 hover:underline">more</Link>
+          <Link href="/hackathons" className="text-neutral-500 hover:underline">more</Link>
         </div>
 
         <div className="flex flex-col gap-8">
