@@ -25,7 +25,7 @@ export default function Home() {
       <div className="content-center items-center flex flex-none flex-col flex-nowrap gap-2.5 h-min justify-center overflow-visible relative w-full px-4 py-0">
         <div className="container max-w-[512px] flex flex-row">
           <Image
-            src="/pfp.jpg"
+            src="/pfp.webp"
             alt="Aniruddh"
             width={44}
             height={44}
