@@ -1,8 +1,9 @@
 import { Projects } from "@/constants";
 import Link from "next/link";
 import { AiOutlineRight } from "react-icons/ai";
-import Masonry from "./Masonry/Masonry";
+import Masonry from "@/components/Masonry/Masonry";
 import { hackathonWins, hackathonOrganised } from "@/constants/hackathons";
+import BackButton from "@/components/shared/back";
 const hackathonImages = [
   { id: 1, image: "/hackathons/image1.webp", height: 300 },
   { id: 2, image: "/hackathons/image2.webp", height: 400 },
@@ -28,29 +29,25 @@ const hackathonImages = [
 
 export default function Hackathons() {
   return (
-    <>
-      <div className="w-full h-[1px]"></div>
-      <div className="mt-5">
-        <div className="flex justify-between items-center">
-          <h1 className="text-2xl text-white mt-5 mb-5">Hackathons Wins</h1>
-          <Link href="/hackathons" className="text-neutral-300 hover:underline">more</Link>
-        </div>
+    <main className="min-h-screen pt-10 container items-center justify-center flex-col">
+      <div className="flex mt-8 flex-col max-w-[512px] mx-auto p-5 lg:p-0">
+        <div className="container">
+          <BackButton />
 
-        <div className="flex flex-col gap-8">
-            <div className="flex flex-col">
-              {hackathonWins
-                .slice(-2)
-                .reverse()
-                .map((hack) => (
+          <div className="w-full h-[1px]"></div>
+          <div className="mt-5">
+            <h1 className="text-2xl text-white mt-5 mb-5">Hackathons Wins</h1>
+
+            <div className="flex flex-col gap-8">
+              <div className="flex flex-col">
+                {hackathonWins.reverse().map((hack) => (
                   <article key={hack.name} className="proj group mb-4">
                     <div className="flex flex-col gap-1">
                       <div className="flex items-center justify-between">
                         <h3 className="text-lg font-medium text-gray-300">
                           {hack.name}
                         </h3>
-                        <p className="text-sm text-gray-400 ">
-                          {hack.venue}
-                        </p>
+                        <p className="text-sm text-gray-400 ">{hack.venue}</p>
                       </div>
                       <p className="text-sm text-gray-400 ">
                         {hack.description}
@@ -58,38 +55,37 @@ export default function Hackathons() {
                     </div>
                   </article>
                 ))}
-          </div>
+              </div>
 
-          <div>
-            <h2 className="text-2xl text-white mb-4">Hackathons Organised</h2>
-            <div className="flex flex-col">
-              {hackathonOrganised
-                .slice(-2)
-                .reverse()
-                .map((hack) => (
-                  <article key={hack.name} className="proj group mb-4">
-                    <div className="flex flex-col gap-1">
-                      <div className="flex items-center justify-between">
-                        <h3 className="text-lg font-medium text-gray-300">
-                          {hack.name}
-                        </h3>
+              <div>
+                <h2 className="text-2xl text-white mb-4">
+                  Hackathons Organised
+                </h2>
+                <div className="flex flex-col">
+                  {hackathonOrganised.reverse().map((hack) => (
+                    <article key={hack.name} className="proj group mb-4">
+                      <div className="flex flex-col gap-1">
+                        <div className="flex items-center justify-between">
+                          <h3 className="text-lg font-medium text-gray-300">
+                            {hack.name}
+                          </h3>
+                          <p className="text-sm text-gray-400 ">{hack.venue}</p>
+                        </div>
                         <p className="text-sm text-gray-400 ">
-                          {hack.venue}
+                          {hack.description}
                         </p>
                       </div>
-                      <p className="text-sm text-gray-400 ">
-                        {hack.description}
-                      </p>
-                    </div>
-                  </article>
-                ))}
+                    </article>
+                  ))}
+                </div>
+              </div>
+              <div className="mb-10">
+                <Masonry data={hackathonImages} />
+              </div>
             </div>
-          </div>
-          <div className="mb-10">
-            <Masonry data={hackathonImages} />
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 }
