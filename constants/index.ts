@@ -96,6 +96,29 @@ export const Projects: Project[] = [
     tags: ["Resume", "PDF", "View", "Portfolio"]
   },
   {
+    name: "School Results",
+    slug: "school-results",
+    image: {
+      url: "/lkpsresult.png",
+      width: 400,
+      height: 200,
+      alt: "School Results"
+    },
+    description: "An app that generates results for a pre-primary school.",
+    urls: {
+      liveUrl: "https://lkps.ani.ink/",
+      githubUrl: "https://github.com/icantcodefyi/school-results"
+    },
+    tags: [
+      "Education",
+      "TypeScript",
+      "Next.Js",
+      "PDFME",
+      "Serverless",
+      "Tailwind Css"
+    ]
+  }, 
+  {
     name: "Glanza Labs",
     slug: "glanza-labs",
     image: {
@@ -137,29 +160,6 @@ export const Projects: Project[] = [
       "GPT-3.5",
       "Data Visualization",
       "CSV"
-    ]
-  },  
-  {
-    name: "School Results",
-    slug: "school-results",
-    image: {
-      url: "/lkpsresult.png",
-      width: 400,
-      height: 200,
-      alt: "School Results"
-    },
-    description: "An app that generates results for a pre-primary school.",
-    urls: {
-      liveUrl: "https://results-lkps.vercel.app/",
-      githubUrl: "https://github.com/AnuPlayz/school-results"
-    },
-    tags: [
-      "Education",
-      "TypeScript",
-      "Next.Js",
-      "PDFME",
-      "Serverless",
-      "Tailwind Css"
     ]
   },  
   {
