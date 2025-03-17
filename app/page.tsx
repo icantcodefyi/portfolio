@@ -5,7 +5,7 @@ import { Projects } from "@/constants";
 import Badge from "@/components/badge";
 import Image from "next/image";
 import Link from "next/link";
-import Hackathons from "@/components/hackathons";
+// import Hackathons from "@/components/hackathons";
 
 export default function Home() {
   const birthDate = new Date("2005-03-29");

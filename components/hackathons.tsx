@@ -13,7 +13,7 @@ export default function Hackathons() {
           </div>
           <div className="flex flex-col">
             {Projects.slice(0, 5).map((project) => (
-              pac<Link
+              <Link
                 className="proj group"
                 key={project.name.replace(" ", "-")}
                 href={`/project/${project.slug}`}
