@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { AiOutlineRight } from "react-icons/ai";
+import { JetBrains_Mono } from "next/font/google";
+
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
 interface WorkExperience {
   company: string;
@@ -21,8 +23,8 @@ const experiences: WorkExperience[] = [
   },
   {
     company: "Merlin AI",
-    position: "Software Development Intern ",
-    location: "Bengaluru",
+    position: "Software Engineer Intern",
+    location: "Bengaluru, India",
     duration: "Sept 2024 – Feb 2025",
     link: "https://getmerlin.in",
     image: "/merlin.svg",
@@ -59,7 +61,7 @@ export default function WorkExperience() {
                 </div>
                 <div className="flex justify-between items-center mt-1">
                   <p className="text-sm text-neutral-400">{exp.position}</p>
-                  <p className="text-sm text-neutral-400 text-end">{exp.duration}</p>
+                  <p className={`text-[10px] text-neutral-400 text-end leading-[1.3em] tracking-tighter ${jetbrainsMono.className}`}>{exp.duration}</p>
                 </div>
               </div>
             </article>
