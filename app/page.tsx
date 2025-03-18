@@ -7,7 +7,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Hackathons from "@/components/hackathons";
 import WorkExperience from "@/components/workexp";
-import Resume from "@/components/resume";
 
 export default function Home() {
   const birthDate = new Date("2005-03-29");
@@ -297,7 +296,12 @@ export default function Home() {
         </div>
         <Hackathons />
         <div className="text-center py-4">
-          <Resume />
+          <Link
+            href={"/resume"}
+            className="text-neutral-600 text-sm hover:underline"
+          >
+            Resume
+          </Link>
         </div>
       </div>
     </main>
