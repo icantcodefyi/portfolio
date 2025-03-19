@@ -119,7 +119,23 @@ export const Projects: Project[] = [
     ]
   }, 
   {
-    name: "Glanza Labs",
+    "name": "linkedin alignment chart",
+    "slug": "linkedin-chart",
+    "image": {
+      "url": "/linkedin.png",
+      "width": 400,
+      "height": 200,
+      "alt": "Linkedin Alignment Chart"
+    },
+    "description": "Create D&D-style alignment charts for LinkedIn users. Place users on a Lawful-Chaotic and Good-Evil grid based on AI analysis.",
+    "urls": {
+      "liveUrl": "https://linkedin-alignment-chart.vercel.app/",
+      "githubUrl": "https://github.com/icantcodefyi/linkedin-alignment-chart"
+    },
+    tags: ["LinkedIn", "Next.js", "Tailwind CSS", "Vercel AI SDK", "React", "TypeScript"]
+  },
+  {
+    name: "glanza labs",
     slug: "glanza-labs",
     image: {
       url: "/glanza.png",
@@ -140,7 +156,7 @@ export const Projects: Project[] = [
     ]
   },  
   {
-    name: "Nexus Visualize",
+    name: "nexus visualize",
     slug: "nexus-visualize",
     image: {
       url: "/nexusdashboard.png",
@@ -163,7 +179,7 @@ export const Projects: Project[] = [
     ]
   },  
   {
-    name: "Nexus Events",
+    name: "nexus events",
     slug: "nexus-events",
     image: {
       url: "/nexusevents.png",
@@ -188,7 +204,7 @@ export const Projects: Project[] = [
     ],
   },
   {
-    name: "Nexus Read",
+    name: "nexus read",
     slug: "nexus-read",
     image: {
       url: "/nexusread.png",
@@ -212,7 +228,7 @@ export const Projects: Project[] = [
     ],
   },
   {
-    name: "Citronics",
+    name: "citronics",
     description:
       "An official event website for college fest made with html css and vanilla js",
     slug: "citronics",
@@ -235,7 +251,7 @@ export const Projects: Project[] = [
     ],
   },
   {
-    name: "Investment Bot",
+    name: "investment bot",
     slug: "investment-bot",
     urls: {
       githubUrl: "https://github.com/AnuPlayz/investment-bot",
@@ -250,7 +266,7 @@ export const Projects: Project[] = [
     tags: ["TypeScript", "Discord.js", "Node.js"],
   },
   {
-    name: "Animax",
+    name: "animax",
     slug: "animax",
     urls: {
       githubUrl: "https://github.com/AnuPlayz/animax",
@@ -265,7 +281,7 @@ export const Projects: Project[] = [
     },
   },
   {
-    name: "Little Kids Planet",
+    name: "little kids planet",
     slug: "lkps",
     image: {
       url: "/lkps.png",
