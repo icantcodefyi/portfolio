@@ -19,6 +19,26 @@ interface Project {
 
 export const Projects: Project[] = [
   {
+    name: "invoicely",
+    slug: "invoicely",
+    image: {
+      url: "/invoicely.png",
+      width: 400,
+      height: 200,
+      alt: "Invoicely - Create Beautiful & Professional Invoices"
+    },
+    urls: {
+      liveUrl: "https://invoicely.gg/",
+      githubUrl: "https://github.com/legions-developer/invoicely"
+    },
+    description: "Invoicely is a simple and easy to use invoice generator where you can create beautiful and professional invoices in minutes. ~ Proudly OSS",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "Pdfjs"
+    ]
+  },
+  {
     name: "cattype",
     slug: "cattype",
     image: {
