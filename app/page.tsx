@@ -165,7 +165,7 @@ export default function Home() {
               Prisma
             </Badge>
             ,{" "}
-            <Badge href="https://www.prisma.io/" className="mr-1">
+            <Badge href="https://www.solana.com/" className="mr-1">
               <svg
                 width="14"
                 height="14"
