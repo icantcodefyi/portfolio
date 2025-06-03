@@ -300,25 +300,4 @@ export const Projects: Project[] = [
       alt: "React Cli",
     },
   },
-  {
-    name: "little kids planet",
-    slug: "lkps",
-    image: {
-      url: "/lkps.png",
-      width: 400,
-      height: 200,
-      alt: "Little Kids Planet School",
-    },
-    description:
-      "A website for my mom's pre primary school built by me",
-    urls: {
-      liveUrl: "https://lkps.vercel.app/",
-    },
-    tags: [
-      "Nextjs",
-      "HTML",
-      "CSS",
-      "Javascript",
-    ],
-  },
 ];
