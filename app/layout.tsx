@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     description: "Full Stack Web Developer and Designer from India, specializing in Next.js, React, and TypeScript.",
     images: [
       {
-        url: "/og.webp",
-        width: 1920,
-        height: 1440,
+        url: "/og.png",
+        width: 1200,
+        height: 675,
         alt: "Aniruddh's Profile Picture",
       },
     ],
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     creator: "@icantcodefyi",
     images: [
       {
-        url: "/og.jpeg",
+        url: "/og.png",
         width: 1200,
-        height: 630,
+        height: 675,
         alt: "Aniruddh's Profile Picture",
       },
     ],
