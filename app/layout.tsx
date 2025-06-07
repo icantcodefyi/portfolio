@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: "Full Stack Web Developer and Designer from India, specializing in Next.js, React, and TypeScript.",
     images: [
       {
-        url: "/og.jpeg",
+        url: "/og.webp",
         width: 1200,
         height: 630,
         alt: "Aniruddh's Profile Picture",
