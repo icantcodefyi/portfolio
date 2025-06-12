@@ -19,6 +19,31 @@ interface Project {
 
 export const Projects: Project[] = [
   {
+    name: "annu's poems",
+    slug: "annu-poems",
+    image: {
+      url: "/annu.webp",
+      width: 400,
+      height: 200,
+      alt: "Annu's Poems"
+    },
+    urls: {
+      liveUrl: "https://annnu.art/",
+    },
+    description: "A collection of poems written by my precious - Annu.",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "Next.js",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+    ]
+  },
+  {
     name: "invoicely",
     slug: "invoicely",
     image: {
@@ -36,6 +61,29 @@ export const Projects: Project[] = [
       "Next.js",
       "Typescript",
       "Pdfjs"
+    ]
+  },
+  {
+    name: "autodiagram",
+    slug: "autodiagram",
+    image: {
+      url: "/autodiagram.webp",
+      width: 400,
+      height: 200,
+      alt: "AutoDiagram - AI Powered Diagram Generation"
+    },
+    urls: {
+      liveUrl: "https://autodiagram.com/",
+      githubUrl: "https://github.com/icantcodefyi/diagram"
+    },
+    description: "An AI-powered diagram generation tool that transforms text descriptions into professional diagrams. Supports 20+ diagram types including flowcharts, ER diagrams, architecture maps, and sequence diagrams with intelligent suggestions and error prevention.",
+    tags: [
+      "AI",
+      "Diagram Generation",
+      "Next.js",
+      "TypeScript",
+      "SVG",
+      "SaaS"
     ]
   },
   {
@@ -62,29 +110,27 @@ export const Projects: Project[] = [
     ]
   },
   {
-    name: "autodiagram",
-    slug: "autodiagram",
+    name: "aurastake",
+    slug: "aurastake",
     image: {
-      url: "/autodiagram.webp",
+      url: "/aurastake.webp",
       width: 400,
       height: 200,
-      alt: "AutoDiagram - AI Powered Diagram Generation"
+      alt: "Aurastake - Decentralized Productivity Tool"
     },
     urls: {
-      liveUrl: "https://autodiagram.com/",
-      githubUrl: "https://github.com/icantcodefyi/diagram"
+      liveUrl: "https://aurastake.xyz/",
     },
-    description: "An AI-powered diagram generation tool that transforms text descriptions into professional diagrams. Supports 20+ diagram types including flowcharts, ER diagrams, architecture maps, and sequence diagrams with intelligent suggestions and error prevention.",
+    description: "A decentralized productivity tool that uses SOL staking and Aura points to incentivize consistent daily work habits, with public leaderboards and GitHub-style streaks for accountability.",
     tags: [
-      "AI",
-      "Diagram Generation",
+      "Productivity",
+      "Staking",
+      "Solana",
       "Next.js",
       "TypeScript",
-      "SVG",
-      "SaaS"
+      "Leaderboards"
     ]
   },
-  
   {
     name: "getaresume",
     slug: "getaresume",
