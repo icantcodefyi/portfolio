@@ -1,12 +1,13 @@
 import Transition from "@/components/transition";
-import { AiOutlineRight, AiOutlineMail } from "react-icons/ai";
-import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
+import { AiOutlineRight } from "react-icons/ai";
+import { AtSignIcon, GithubIcon, LinkedinIcon } from "@/components/svgs";
 import { Projects } from "@/constants";
 import Badge from "@/components/badge";
 import Image from "next/image";
 import Link from "next/link";
 import Hackathons from "@/components/hackathons";
 import WorkExperience from "@/components/workexp";
+import Links from "@/components/links";
 
 export default function Home() {
   const birthDate = new Date("2005-03-29");
@@ -215,52 +216,7 @@ export default function Home() {
             </div>
           </Link>
           <br />
-          <div className="flex flex-row gap-3">
-            <a
-              href="https://www.x.com/icantcodefyi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center justify-start gap-2.5 
-              text-white transition duration-300 ease-in-out
-              bg-neutral-700 hover:bg-neutral-900 rounded-md px-3 py-2.5  
-            "
-            >
-              <FiTwitter className="text-white text-xl" />
-            </a>
-            <a
-              href="https://github.com/icantcodefyi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center justify-start gap-2.5 
-              text-white transition duration-300 ease-in-out
-              bg-neutral-700 hover:bg-neutral-900 rounded-md px-3 py-2.5  
-            "
-            >
-              <FiGithub className="text-white text-xl" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/aniruddhdubge/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center justify-start gap-2.5 
-              text-white transition duration-300 ease-in-out
-              bg-neutral-700 hover:bg-neutral-900 rounded-md px-3 py-2.5  
-            "
-            >
-              <FiLinkedin className="text-white text-xl" />
-            </a>
-            <a
-              href="mailto:adubge@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center justify-start gap-2.5 
-              text-white transition duration-300 ease-in-out
-              bg-neutral-700 hover:bg-neutral-900 rounded-md px-3 py-2.5  
-            "
-            >
-              <AiOutlineMail className="text-white text-xl" />
-            </a>
-          </div>
+            <Links />
         </div>
         <div className="w-full h-[1px] "></div>
         <WorkExperience />
