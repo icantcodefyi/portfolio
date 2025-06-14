@@ -19,6 +19,50 @@ interface Project {
 
 export const Projects: Project[] = [
   {
+    name: "elafda",
+    slug: "elafda",
+    image: {
+      url: "/elafda.webp",
+      width: 400,
+      height: 200,
+      alt: "E-Lafda Platform - Discussion Platform with Twitter Integration"
+    },
+    urls: {
+      githubUrl: "https://github.com/icantcodefyi/elafda",
+      liveUrl: "https://elafda.fun/",
+    },
+    description: "A comprehensive discussion platform built with Next.js 15, featuring Twitter integration, interactive polls, threaded comments, and modern UI/UX. Includes dynamic e-lafda pages, real-time voting, and rich media support with server components and TypeScript.",
+    tags: [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "Shadcn UI",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    name: "doblar",
+    slug: "doblar",
+    image: {
+      url: "/doblar.webp",
+      width: 400,
+      height: 200,
+      alt: "Doblar - Local Image Converter"
+    },
+    urls: {
+      liveUrl: "https://doblar.ani.ink/",
+    },
+    description: "Doblar is a fully local image converter. No files are sent anywhere as the conversion is completely local, ensuring privacy and security while converting between different image formats.",
+    tags: [
+      "Image Converter",
+      "Local Processing",
+      "Privacy",
+      "Web App",
+      "TypeScript",
+      "React"
+    ]
+  },
+  {
     name: "annu's poems",
     slug: "annu-poems",
     image: {
